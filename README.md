@@ -1,5 +1,5 @@
 
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/katyhuff/npre247/master)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/munkm/npre247/22-spring)
 
 
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
@@ -7,7 +7,7 @@
 # NPRE 247: Modeling Nuclear Reactor Systems
 
 This is the repository that holds ipython notebooks, python scripts, a 
-syllabus, and other materials for Katy Huff's NPRE247 course at UofI. 
+syllabus, and other materials for Madicken Munk's NPRE247 course at UofI. 
 
 
 ## Syllabus
@@ -19,7 +19,7 @@ change, so please keep checking it.
 
 The easiest way to run the notebooks is to let mybinder.org do it for you. Just 
 go to 
-[mybinder.org:/repo/katyhuff/npre247](http://mybinder.org:/repo/katyhuff/npre247). 
+[mybinder.org:/repo/munkm/npre247](http://mybinder.org:/repo/munkm/npre247). 
 
 If you have trouble, it may be due to the mybinder servers being overloaded. 
 This is a fairly common occurance, because their servers are funded entirely by 
@@ -36,7 +36,7 @@ install python and install git.
  
 Download and install the scientific python distribution called
 [anaconda](https://www.continuum.io/downloads). You will need python version
-3.0 or greater. 
+3.5 or greater. 
 
 ### Installing Git (optional)
 
@@ -50,11 +50,11 @@ found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 program if you are on windows and execute the command:
 
 ```
-git clone https://github.com/katyhuff/npre247.git
+git clone https://github.com/munkm/npre247.git
 ```
 
 **If you have not installed git,** you can download the notebooks as a zip file
-from [here](https://github.com/katyhuff/npre247/archive/master.zip). Then,
+from [here](https://github.com/munkm/npre247/archive/master.zip). Then,
 unzip the directory. 
 
 
@@ -66,6 +66,12 @@ a terminal (or the git bash for windows program) and type the following command 
 
 ```
 jupyter notebook
+```
+
+Alternatively, you can choose to use a Jupyter Lab instance
+
+```
+jupyter lab
 ```
 
 Your browser should open to a localhost:8888 url. Navigate to the notebooks to
@@ -84,8 +90,11 @@ zip file. If you *have* installed git, navigate to your npre247 directory and
 type the following:
 
 ```
-git pull origin master
+git pull origin 22-spring
 ```
+
+**Note that most conventions you will see in git instructions will use `master` 
+rather than `22-spring` like I have here.**
 
 You may run into errors at this point if you have made edits and not committed
 your changes.  Or, indeed, if you have made changes to the same lines to which
@@ -97,7 +106,14 @@ a great tutorial on using git effectively.
 
 ## Attribution of re-used materials
 
-Note: Two notebooks in the `finite_diff` direcory, regarding finite 
+Much of this content is a reflection of the course materials originally
+developed by Prof. Kathryn Huff (@katyhuff) at the University of Illinois at Urbana
+Champaign. Specifically the lecture notes and the syllabus are heavily
+influenced by this content. You can find it at:
+https://github.com/katyhuff/npre247 . It, like this version of the course, is
+CC-BY-4.0 licensed.  
+
+Two notebooks in the `finite_diff` direcory, regarding finite 
 differences, are borrowed directly from David Kechison (@ketch) who is the 
 author of the repository: https://github.com/ketch/finite-difference-course. 
 These are CC-BY Licensed.  You can learn more about his numerical methods 
