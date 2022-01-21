@@ -254,3 +254,5 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+
+roster.csv
