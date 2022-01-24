@@ -1,4 +1,4 @@
-ore latex/pdflatex auxiliary files:
+Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
 *.log
@@ -255,4 +255,9 @@ TSWLatexianTemp*
 # standalone packages
 *.sta
 
+# class specific data
 roster.csv
+
+# jupyter stuff
+.DS_STORE
+*/.ipynb_checkpoints
